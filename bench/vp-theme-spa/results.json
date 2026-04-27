@@ -1,0 +1,428 @@
+{
+  "runs": 7,
+  "warmups": 1,
+  "results": [
+    {
+      "name": "vp-theme-spa-vdom",
+      "mode": "vdom",
+      "bundle": {
+        "initialFileCount": 3,
+        "initialRaw": 132071,
+        "initialGzip": 48851,
+        "initialBrotli": 43414,
+        "runtimeFiles": [
+          "assets/runtime-vue-CKlwaaYe.js"
+        ],
+        "runtimeRaw": 76410,
+        "runtimeGzip": 30161,
+        "runtimeBrotli": 27227,
+        "totalJsFiles": 4,
+        "totalRaw": 265797,
+        "totalGzip": 87228,
+        "totalBrotli": 76723,
+        "initialFiles": [
+          "assets/index-Dw4EmxKJ.js",
+          "assets/runtime-vue-CKlwaaYe.js",
+          "assets/theme-config-mdxk-ufz.js"
+        ]
+      },
+      "cpuRuns": [
+        {
+          "elapsedMs": 875.77,
+          "taskDurationMs": 56.45,
+          "scriptDurationMs": 12.09,
+          "layoutDurationMs": 17.06,
+          "recalcStyleDurationMs": 2.04,
+          "jsHeapUsedSize": 2802036,
+          "domContentLoadedMs": 29.8,
+          "loadEventMs": 31.1,
+          "firstPaintMs": 60,
+          "firstContentfulPaintMs": 60,
+          "mountMs": 10.7,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 875.13,
+          "taskDurationMs": 56.97,
+          "scriptDurationMs": 12.17,
+          "layoutDurationMs": 17.52,
+          "recalcStyleDurationMs": 2.08,
+          "jsHeapUsedSize": 2801668,
+          "domContentLoadedMs": 28.7,
+          "loadEventMs": 29.9,
+          "firstPaintMs": 60,
+          "firstContentfulPaintMs": 60,
+          "mountMs": 10.7,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 874.49,
+          "taskDurationMs": 55.56,
+          "scriptDurationMs": 11.72,
+          "layoutDurationMs": 16.93,
+          "recalcStyleDurationMs": 1.91,
+          "jsHeapUsedSize": 2796604,
+          "domContentLoadedMs": 27.8,
+          "loadEventMs": 29.6,
+          "firstPaintMs": 56,
+          "firstContentfulPaintMs": 56,
+          "mountMs": 10.3,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 873.62,
+          "taskDurationMs": 56.35,
+          "scriptDurationMs": 12.14,
+          "layoutDurationMs": 17.17,
+          "recalcStyleDurationMs": 2.04,
+          "jsHeapUsedSize": 2798620,
+          "domContentLoadedMs": 27.6,
+          "loadEventMs": 28.8,
+          "firstPaintMs": 56,
+          "firstContentfulPaintMs": 56,
+          "mountMs": 10.1,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 868.63,
+          "taskDurationMs": 54.53,
+          "scriptDurationMs": 11.81,
+          "layoutDurationMs": 16.72,
+          "recalcStyleDurationMs": 2.12,
+          "jsHeapUsedSize": 2793560,
+          "domContentLoadedMs": 27.1,
+          "loadEventMs": 28.2,
+          "firstPaintMs": 56,
+          "firstContentfulPaintMs": 56,
+          "mountMs": 10.3,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 861.4,
+          "taskDurationMs": 48.82,
+          "scriptDurationMs": 11.83,
+          "layoutDurationMs": 17.5,
+          "recalcStyleDurationMs": 2.02,
+          "jsHeapUsedSize": 2804716,
+          "domContentLoadedMs": 27,
+          "loadEventMs": 28.1,
+          "firstPaintMs": 56,
+          "firstContentfulPaintMs": 56,
+          "mountMs": 10.2,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 895.09,
+          "taskDurationMs": 62.45,
+          "scriptDurationMs": 13.42,
+          "layoutDurationMs": 18.35,
+          "recalcStyleDurationMs": 2.59,
+          "jsHeapUsedSize": 2807028,
+          "domContentLoadedMs": 41.8,
+          "loadEventMs": 44.4,
+          "firstPaintMs": 76,
+          "firstContentfulPaintMs": 76,
+          "mountMs": 11.6,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        }
+      ],
+      "cpuSummary": {
+        "elapsedMs": {
+          "median": 874.49,
+          "min": 861.4,
+          "max": 895.09
+        },
+        "taskDurationMs": {
+          "median": 56.35,
+          "min": 48.82,
+          "max": 62.45
+        },
+        "scriptDurationMs": {
+          "median": 12.09,
+          "min": 11.72,
+          "max": 13.42
+        },
+        "layoutDurationMs": {
+          "median": 17.17,
+          "min": 16.72,
+          "max": 18.35
+        },
+        "recalcStyleDurationMs": {
+          "median": 2.04,
+          "min": 1.91,
+          "max": 2.59
+        },
+        "jsHeapUsedSize": {
+          "median": 2801668,
+          "min": 2793560,
+          "max": 2807028
+        },
+        "domContentLoadedMs": {
+          "median": 27.8,
+          "min": 27,
+          "max": 41.8
+        },
+        "loadEventMs": {
+          "median": 29.6,
+          "min": 28.1,
+          "max": 44.4
+        },
+        "firstPaintMs": {
+          "median": 56,
+          "min": 56,
+          "max": 76
+        },
+        "firstContentfulPaintMs": {
+          "median": 56,
+          "min": 56,
+          "max": 76
+        },
+        "mountMs": {
+          "median": 10.3,
+          "min": 10.1,
+          "max": 11.6
+        },
+        "longTaskCount": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "longTaskTotalMs": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalBlockingTimeMs": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    },
+    {
+      "name": "vp-theme-spa-vapor",
+      "mode": "vapor",
+      "bundle": {
+        "initialFileCount": 3,
+        "initialRaw": 145910,
+        "initialGzip": 52235,
+        "initialBrotli": 46374,
+        "runtimeFiles": [
+          "assets/runtime-vapor-Cqg915Wj.js"
+        ],
+        "runtimeRaw": 77804,
+        "runtimeGzip": 29490,
+        "runtimeBrotli": 26688,
+        "totalJsFiles": 4,
+        "totalRaw": 279635,
+        "totalGzip": 90620,
+        "totalBrotli": 79664,
+        "initialFiles": [
+          "assets/index-Ca-JH8BS.js",
+          "assets/runtime-vapor-Cqg915Wj.js",
+          "assets/theme-config-CezxZRKP.js"
+        ]
+      },
+      "cpuRuns": [
+        {
+          "elapsedMs": 866.3,
+          "taskDurationMs": 48.76,
+          "scriptDurationMs": 13.18,
+          "layoutDurationMs": 17.71,
+          "recalcStyleDurationMs": 2.03,
+          "jsHeapUsedSize": 2989016,
+          "domContentLoadedMs": 30.8,
+          "loadEventMs": 32,
+          "firstPaintMs": 60,
+          "firstContentfulPaintMs": 60,
+          "mountMs": 11.8,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 871.09,
+          "taskDurationMs": 50.04,
+          "scriptDurationMs": 13.68,
+          "layoutDurationMs": 18.48,
+          "recalcStyleDurationMs": 1.85,
+          "jsHeapUsedSize": 2995488,
+          "domContentLoadedMs": 31.8,
+          "loadEventMs": 33.6,
+          "firstPaintMs": 64,
+          "firstContentfulPaintMs": 64,
+          "mountMs": 12.2,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 870.94,
+          "taskDurationMs": 49.58,
+          "scriptDurationMs": 13.23,
+          "layoutDurationMs": 18.08,
+          "recalcStyleDurationMs": 2.03,
+          "jsHeapUsedSize": 2996492,
+          "domContentLoadedMs": 33.2,
+          "loadEventMs": 34.4,
+          "firstPaintMs": 64,
+          "firstContentfulPaintMs": 64,
+          "mountMs": 11.8,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 881.16,
+          "taskDurationMs": 55.93,
+          "scriptDurationMs": 15.83,
+          "layoutDurationMs": 19.18,
+          "recalcStyleDurationMs": 2.49,
+          "jsHeapUsedSize": 2989156,
+          "domContentLoadedMs": 36.4,
+          "loadEventMs": 38.9,
+          "firstPaintMs": 72,
+          "firstContentfulPaintMs": 72,
+          "mountMs": 14.1,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 877.26,
+          "taskDurationMs": 55.13,
+          "scriptDurationMs": 14.18,
+          "layoutDurationMs": 17.86,
+          "recalcStyleDurationMs": 1.92,
+          "jsHeapUsedSize": 2995064,
+          "domContentLoadedMs": 33.7,
+          "loadEventMs": 35.6,
+          "firstPaintMs": 68,
+          "firstContentfulPaintMs": 68,
+          "mountMs": 12.7,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 872.65,
+          "taskDurationMs": 51.94,
+          "scriptDurationMs": 13.93,
+          "layoutDurationMs": 17.26,
+          "recalcStyleDurationMs": 2.12,
+          "jsHeapUsedSize": 3009844,
+          "domContentLoadedMs": 32.6,
+          "loadEventMs": 34.7,
+          "firstPaintMs": 64,
+          "firstContentfulPaintMs": 64,
+          "mountMs": 12.4,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        },
+        {
+          "elapsedMs": 874.83,
+          "taskDurationMs": 54.39,
+          "scriptDurationMs": 13.28,
+          "layoutDurationMs": 18.72,
+          "recalcStyleDurationMs": 1.93,
+          "jsHeapUsedSize": 2993212,
+          "domContentLoadedMs": 27.4,
+          "loadEventMs": 29.3,
+          "firstPaintMs": 60,
+          "firstContentfulPaintMs": 60,
+          "mountMs": 11.7,
+          "longTaskCount": 0,
+          "longTaskTotalMs": 0,
+          "totalBlockingTimeMs": 0
+        }
+      ],
+      "cpuSummary": {
+        "elapsedMs": {
+          "median": 872.65,
+          "min": 866.3,
+          "max": 881.16
+        },
+        "taskDurationMs": {
+          "median": 51.94,
+          "min": 48.76,
+          "max": 55.93
+        },
+        "scriptDurationMs": {
+          "median": 13.68,
+          "min": 13.18,
+          "max": 15.83
+        },
+        "layoutDurationMs": {
+          "median": 18.08,
+          "min": 17.26,
+          "max": 19.18
+        },
+        "recalcStyleDurationMs": {
+          "median": 2.03,
+          "min": 1.85,
+          "max": 2.49
+        },
+        "jsHeapUsedSize": {
+          "median": 2995064,
+          "min": 2989016,
+          "max": 3009844
+        },
+        "domContentLoadedMs": {
+          "median": 32.6,
+          "min": 27.4,
+          "max": 36.4
+        },
+        "loadEventMs": {
+          "median": 34.4,
+          "min": 29.3,
+          "max": 38.9
+        },
+        "firstPaintMs": {
+          "median": 64,
+          "min": 60,
+          "max": 72
+        },
+        "firstContentfulPaintMs": {
+          "median": 64,
+          "min": 60,
+          "max": 72
+        },
+        "mountMs": {
+          "median": 12.2,
+          "min": 11.7,
+          "max": 14.1
+        },
+        "longTaskCount": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "longTaskTotalMs": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        },
+        "totalBlockingTimeMs": {
+          "median": 0,
+          "min": 0,
+          "max": 0
+        }
+      }
+    }
+  ]
+}

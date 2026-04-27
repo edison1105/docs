@@ -1,0 +1,10 @@
+@import '@vue/theme/src/core/styles/index.css';
+@import '@vue/theme/src/vitepress/styles/index.css';
+
+:root {
+  --vt-banner-height: 40px;
+}
+
+body {
+  margin: 0;
+}

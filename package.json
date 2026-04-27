@@ -5,6 +5,10 @@
     "dev": "vitepress",
     "build": "vitepress build",
     "preview": "vitepress preview",
+    "bench:vp-theme:build": "pnpm bench:vp-theme:build:vdom && pnpm bench:vp-theme:build:vapor",
+    "bench:vp-theme:build:vdom": "vite build --config bench/vp-theme-spa/vite.vdom.config.mjs",
+    "bench:vp-theme:build:vapor": "vite build --config bench/vp-theme-spa/vite.vapor.config.mjs",
+    "bench:vp-theme": "node bench/vp-theme-spa/bench.mjs",
     "preinstall": "npx only-allow pnpm",
     "type": "vue-tsc --noEmit"
   },
@@ -20,8 +24,12 @@
     "@types/body-scroll-lock": "^3.1.2",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^25.5.2",
+    "@vitejs/plugin-vue": "6.0.5",
+    "esbuild": "^0.28.0",
     "oxc-minify": "^0.124.0",
+    "playwright": "^1.59.1",
     "typescript": "^5.9.3",
+    "vite": "8.0.7",
     "vitepress-plugin-group-icons": "^1.7.3",
     "vitepress-plugin-llms": "^1.12.0",
     "vue-tsc": "^3.2.6"
