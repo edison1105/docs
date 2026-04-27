@@ -775,12 +775,11 @@ export default defineConfigWithTheme<ThemeConfig>({
       __VUE_OPTIONS_API__: false
     },
     optimizeDeps: {
-      include: ['gsap', 'dynamics.js'],
-      exclude: ['@vue/repl']
+      include: ['gsap', 'dynamics.js']
     },
     // @ts-ignore
     ssr: {
-      external: ['@vue/repl']
+      external: []
     },
     server: {
       host: true,
