@@ -15,6 +15,17 @@ import {
   groupIconVitePlugin
 } from 'vitepress-plugin-group-icons'
 
+const replStub = path.resolve(process.cwd(), '.vitepress/repl-stub.ts')
+const noReplPlugin: Plugin = {
+  name: 'no-repl-benchmark',
+  enforce: 'pre',
+  resolveId(id) {
+    if (id === '@vue/repl' || id === '@vue/repl/codemirror-editor') {
+      return replStub
+    }
+  }
+}
+
 const nav: ThemeConfig['nav'] = [
   {
     text: 'Docs',
@@ -762,8 +773,6 @@ export default defineConfigWithTheme<ThemeConfig>({
   },
 
   vue: {
-    // enable vapor interop for @vue/repl
-    vaporInterop: true,
     features: {
       // enable vapor mode
       vapor: true
@@ -775,12 +784,11 @@ export default defineConfigWithTheme<ThemeConfig>({
       __VUE_OPTIONS_API__: false
     },
     optimizeDeps: {
-      include: ['gsap', 'dynamics.js'],
-      exclude: ['@vue/repl']
+      include: ['gsap', 'dynamics.js']
     },
     // @ts-ignore
     ssr: {
-      external: ['@vue/repl']
+      external: []
     },
     server: {
       host: true,
@@ -796,6 +804,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       stringify: true
     },
     plugins: [
+      noReplPlugin,
       llmstxt({
         ignoreFiles: [
           'about/team/**/*',
